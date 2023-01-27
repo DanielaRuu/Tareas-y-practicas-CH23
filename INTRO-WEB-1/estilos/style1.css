@@ -1,0 +1,18 @@
+h1 {
+    color: tomato;
+    font-size: 70 px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+p {
+    font-family: sans-serif;
+    color: rgb(9, 127, 181);
+}
+button {
+    background-color: orangered;
+    color: white;
+    border: 0;
+    padding: 20px;
+
+}
