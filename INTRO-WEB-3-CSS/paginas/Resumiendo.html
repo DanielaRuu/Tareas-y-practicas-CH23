@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumiendo</title>
+</head>
+<body>
+    <!--Hay 3 formas de dar estilo:-->
+    <!--Aquí estan las reglas correspondientes al estilo interno-->
+    <style>
+        h2 { 
+            color: brown;
+            text-align: center;
+        }
+        h3{
+            text-decoration: underline;
+            }
+        </style>
+        
+        </head>
+        <body>
+            <!-- 1.Estilo en linea-->
+            <h1 style="color: darkmagenta; text-transform: uppercase;">Hola introduccion a css3</h1>
+        
+            <!-- 2.Estilo interno: las reglas/especificaciones se ubican en el apartado style justo antes del encabezado-->
+            <h2>Hola</h2>
+            <h3>Adios</h3>
+
+            <!--3. Para el tercer tipo de estilo es necesario vincular con un archivo CSS previamente creado en el que se hacen las especificaciones de estilo. Por lo general el vinculo se hace en la linea 8, bajo el titulo de ésta forma: <link rel="stylesheet" href="../misEstilos/externo.css">-->
+
+<!--Herencia: las propiedades asignadas a etiquetas, id, y otros, las heredan todos los elementos que se encuentren dentro de ellas-->
+            <main>
+                <header>
+                    <h1 id="dato">titulo</h1>
+                    <p>Esta es una introducción</p>
+                </header>
+                <section>
+                    <p>frase1</p>
+                    <p>frase2</p>
+                    <p>frase3</p>
+                    <p>frase4</p>
+                    <p>frase5</p>
+                </section>
+            </main>
+            <footer>
+                <h3>hola soy el footer</h3>
+            </footer>
+</body>
+</html>
