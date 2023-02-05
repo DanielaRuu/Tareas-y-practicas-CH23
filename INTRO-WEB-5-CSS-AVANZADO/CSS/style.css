@@ -1,0 +1,68 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 400;
+    /*grosor de la letra*/
+    font-size: 14px;
+    color: #363636;
+    background: cadetblue;
+
+}
+
+/*Header*/
+h1{
+    text-transform: uppercase;
+    /*Especifica eñ cambio entre mayusculas y minusculas. Puede ser usada para que un textoo aparezca completamente en mayusculas, minusculas o conla primera letra de cada palabra en mayuscula.*/
+}
+
+h1 span{
+    color: blanchedalmond;
+}
+
+#photo-header{
+    text-align: center;
+    border-bottom-color:goldenrod ;
+    border-bottom-width: 5px;
+    border-bottom-style: double;
+    /*Border-bottom permite definir las propiedades individuales de un elemento: color, estilo y ancho del borde respectivamente a como los acomodamos aquí*/
+}
+
+#photo img{
+    background-color: darkcyan;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.container{
+    max-width: 900px;
+    background-color: darkcyan;
+    margin-top: 80px;
+    /*margen arriba*/
+    margin-left: auto;
+    /*margen aizquierdo*/
+    margin-right: auto;
+    /*margen derecho*/
+    margin-bottom: 30px;
+    /*margen abajo*/
+
+}
+.menu ul{
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+    list-style-type: none;
+    /*quita los puntos del menu*/
+}
+.menu ul li{
+    display: inline-block;
+    /*Para ocultar o mostrar, dependiendo de la propiedad que se le ponga. En este caso con la propiedad inline-block los acomoda todos en bloque lineal*/
+    position: relative;
+    /*Intercambia la posición (vertical/hotizontal)*/
+}
+.menu ul li a {
+    background-color: gray;
+    color: bisque;
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    padding: 3px;
+}
