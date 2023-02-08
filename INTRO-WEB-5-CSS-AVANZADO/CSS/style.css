@@ -1,40 +1,55 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* La propiedad font-family define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado. A diferencia de la mayoría de las propiedades CSS, los valores se separan con comas (",") para indicar que son valores alternativos. */
     font-weight: 400;
     /*grosor de la letra*/
     font-size: 14px;
+    /* La propiedad font-size especifica la dimensión de la letra. Este tamaño puede, a su vez, alterar el aspecto de alguna otra cosa, ya que se usa para calcular la longitud de las unidades em y ex. */
     color: #363636;
     background: cadetblue;
+    /* La propiedad background es un atajo para definir los valores individuales del fondo en una única regla CSS. Se puede usar background para definir los valores de una o de todas las propiedades siguientes: background-attachment, color, image, position, repeat. */
 
 }
 
 /*Header*/
-h1{
+h1 {
     text-transform: uppercase;
-    /*Especifica eñ cambio entre mayusculas y minusculas. Puede ser usada para que un textoo aparezca completamente en mayusculas, minusculas o conla primera letra de cada palabra en mayuscula.*/
+    /*Especifica el cambio entre mayusculas y minusculas. Puede ser usada para que un textoo aparezca completamente en mayusculas, minusculas o con la primera letra de cada palabra en mayuscula.*/
 }
 
-h1 span{
+h1 span {
     color: blanchedalmond;
 }
 
-#photo-header{
+#photo-header {
     text-align: center;
-    border-bottom-color:goldenrod ;
+    /*Alinea el texto*/
+    border-bottom-color: goldenrod;
+    /* La propiedad border-bottom-color define el color del borde inferior de un elemento, con la ayuda de un valor de color o con la palabra clave transparent. */
     border-bottom-width: 5px;
+    /* border-bottom-width define el ancho del borde inferior de una caja. */
     border-bottom-style: double;
+    /* border-bottom-style define el estilo de línea del borde inferior de una caja. */
     /*Border-bottom permite definir las propiedades individuales de un elemento: color, estilo y ancho del borde respectivamente a como los acomodamos aquí*/
 }
 
-#photo img{
+#photo img {
     background-color: darkcyan;
+    /* La propiedad CSS background-color establece el color de fondo de un elemento. */
     border-radius: 50%;
+    /* La propiedad CSS border-radius redondea las esquinas del borde exterior de un elemento. Puede establecer un solo radio para hacer esquinas circulares o dos radios para hacer esquinas elípticas. */
     width: 120px;
+    /* La propiedad CSS width establece el ancho de un elemento. De forma predeterminada, establece el ancho del área de contenido, pero si el tamaño del cuadro se establece en , establece el ancho del área de borde.border-box */
     height: 120px;
+    /* La propiedad CSS height especifica el alto de un elemento. De forma predeterminada, la propiedad define el alto del área de contenido. Sin embargo, si el tamaño de la caja se establece en , determina la altura del área fronteriza.border-box */
 }
-.container{
+
+.container {
     max-width: 900px;
+    /* La propiedad CSS max-width establece el ancho máximo de un elemento. Evita que el valor utilizado de la propiedad width sea mayor que el valor especificado por .max-width */
     background-color: darkcyan;
+    /* La propiedad CSS background-color establece el color de fondo de un elemento. */
     margin-top: 80px;
     /*margen arriba*/
     margin-left: auto;
@@ -45,24 +60,263 @@ h1 span{
     /*margen abajo*/
 
 }
-.menu ul{
+
+.menu ul {
     text-align: center;
+    /*Alinea el texto*/
     margin: auto;
+    /* La propiedad abreviada CSS de margen establece el área de margen en los cuatro lados de un elemento. */
     padding: 0%;
+    /* La propiedad abreviada CSS de relleno establece el área de relleno en los cuatro lados de un elemento a la vez. */
     list-style-type: none;
     /*quita los puntos del menu*/
 }
-.menu ul li{
+
+.menu ul li {
     display: inline-block;
     /*Para ocultar o mostrar, dependiendo de la propiedad que se le ponga. En este caso con la propiedad inline-block los acomoda todos en bloque lineal*/
     position: relative;
-    /*Intercambia la posición (vertical/hotizontal)*/
+    /*Especifcica cómo un elemento es posicionado en el documento. Las propiedades top, right, bottom y left determinan la ubicación final de los elementos posicionados.Para los elementos con una posición absoluta (aquellos que tienen la propiedad position: absolute o position:fixed), determina la distancia entre el borde superior del elemento y el borde superior del bloque que lo contiene.*/
 }
+
 .menu ul li a {
     background-color: gray;
+    /* La propiedad CSS background-color establece el color de fondo de un elemento. */
     color: bisque;
     font-size: 10px;
+    /* La propiedad font-size especifica la dimensión de la letra. Este tamaño puede, a su vez, alterar el aspecto de alguna otra cosa, ya que se usa para calcular la longitud de las unidades em y ex. */
     text-decoration: none;
     display: block;
-    padding: 3px;
+    /* La propiedad CSS de visualización establece si un elemento se trata como un bloque o un elemento en línea y el diseño utilizado para sus elementos secundarios, como el diseño de flujo, la cuadrícula o el flex.
+    Formalmente, la propiedad display establece los tipos de visualización interna y externa de un elemento. El tipo exterior establece la participación de un elemento en el diseño del flujo; El tipo interno establece el diseño de los hijos. Algunos valores de están completamente definidos en sus propias especificaciones individuales; por ejemplo, el detalle de lo que sucede cuando se declara se define en la especificación CSS Flexible Box Model.displaydisplay: flex */
+    padding: 5px;
+    /* La propiedad abreviada CSS de relleno establece el área de relleno en los cuatro lados de un elemento a la vez. */
+}
+
+.menu ul li ul {
+    position: absolute;
+    /* La propiedad position de CSS especifica cómo un elemento es 
+    posicionado en el documento. Las propiedades top, right, bottom, 
+    y left determinan la ubicación final de los elementos posicionados. */
+    top: 25px;
+    left: 0;
+    list-style-type: none;
+    display: none;
+    height: auto;
+    /*La propiedad CSS height especifica la altura de un elemento. Por defecto, la propiedad define la altura del área de contenido. Sin embargo, si box-sizing está configurado como border-box, determina la altura del área de borde.*/
+
+}
+
+.menu ul li:hover ul {
+    /*Hover: puede se utilizada para probar si el mecanismo de entrada primario de un usuario puede flotar sobre los elementos.*/
+    display: block;
+}
+
+.menu ul li ul li {
+    display: block;
+    width: 60px;
+    height: 20px;
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+/*fin de header*/
+h2 {
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+
+h2::before {
+    content: "//  ";
+}
+
+.clearfix:before {
+    display: table;
+    line-height: 1;
+    content: "";
+}
+
+.pull-left {
+    float: left
+}
+
+.row {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-10 {
+    width: 10%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.col-90 {
+    width: 90%;
+}
+
+/**********/
+.containerflex {
+    display: flex;
+}
+
+.education ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.education .year {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.education .description {
+    background: #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.education .description h3,
+.education .description p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.education .description p::after {
+    content: "";
+    position: absolute;
+    border: 8px solid transparent;
+    border-right: 8px solid #EEEEEE;
+    top: 5px;
+    left: -16px;
+}
+
+.experience .job .where {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.year {
+    font-size: 0.6em;
+
+}
+
+.profesion {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2em;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.description {
+    margin-top: 0;
+    margin-left: 2em;
+    text-align: justify;
+}
+
+.containerskills {
+    width: 80%;
+    background-color: #ddd;
+    margin-left: 55%;
+}
+
+.skills {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+.python {
+    width: 60%;
+    background-color: #808080;
+}
+
+
+
+.skills-item {				
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 0 2px 5px;
+    margin-top: 5px;				
+    background: #F0563D;
+    
+}
+.skills-item[data-percent="10"] { width: 10% }
+.skills-item[data-percent="20"] { width: 20% }
+.skills-item[data-percent="30"] { width: 30% }
+.skills-item[data-percent="40"] { width: 40% }
+.skills-item[data-percent="50"] { width: 50% }
+.skills-item[data-percent="60"] { width: 60% }
+.skills-item[data-percent="70"] { width: 70% }
+.skills-item[data-percent="80"] { width: 80% }
+.skills-item[data-percent="90"] { width: 90% } */
+
+       
+  
+.html { 
+color: #DDDDDD;
+margin: 3px;
+list-style-type: none; 
+text-align: right; 
+width: 90%; 
+background-color: #04AA6D;}
+.css { color: #DDDDDD;
+margin: 3px;
+list-style-type: none; 
+text-align: right;
+width: 80%; 
+background-color: #2196F3;
+}
+.js { 
+color: #DDDDDD;
+margin: 3px;
+list-style-type:none; 
+text-align: right;
+none;width: 65%; 
+background-color: #f44336;
+}
+.python { 
+color: #DDDDDD;
+margin: 3px;
+list-style-type: none;
+text-align: right; 
+width: 60%; 
+background-color: #808080;
 }
