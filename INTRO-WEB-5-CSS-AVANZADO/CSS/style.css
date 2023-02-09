@@ -80,7 +80,7 @@ h1 span {
 }
 
 .menu ul li a {
-    background-color: gray;
+    background-color: goldenrod;
     /* La propiedad CSS background-color establece el color de fondo de un elemento. */
     color: bisque;
     font-size: 10px;
@@ -128,7 +128,7 @@ h2 {
 }
 
 h2::before {
-    content: "//  ";
+    content: "// ";
 }
 
 .clearfix:before {
@@ -187,8 +187,8 @@ h2::before {
 }
 
 .education .description {
-    background: #EEEEEE;
-    border-bottom: 1px solid #DDDDDD;
+    background: blanchedalmond;
+    border-bottom: 1px solid blanchedalmond;
     padding: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -205,7 +205,7 @@ h2::before {
     content: "";
     position: absolute;
     border: 8px solid transparent;
-    border-right: 8px solid #EEEEEE;
+    border-right: 8px solid blanchedalmond;
     top: 5px;
     left: -16px;
 }
@@ -234,89 +234,137 @@ h2::before {
     text-align: justify;
 }
 
-.containerskills {
-    width: 80%;
-    background-color: #ddd;
-    margin-left: 55%;
-}
+
 
 .skills {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
-.html {
-    width: 90%;
-    background-color: #04AA6D;
-}
-
-.css {
-    width: 80%;
-    background-color: #2196F3;
-}
-
-.js {
-    width: 65%;
-    background-color: #f44336;
-}
-
-.python {
-    width: 60%;
-    background-color: #808080;
-}
-
-
-
-.skills-item {				
+.skills-item {
     color: #FFFFFF;
     font-weight: bold;
     text-transform: uppercase;
     padding: 2px 0 2px 5px;
-    margin-top: 5px;				
+    margin-top: 5px;
     background: #F0563D;
-    
-}
-.skills-item[data-percent="10"] { width: 10% }
-.skills-item[data-percent="20"] { width: 20% }
-.skills-item[data-percent="30"] { width: 30% }
-.skills-item[data-percent="40"] { width: 40% }
-.skills-item[data-percent="50"] { width: 50% }
-.skills-item[data-percent="60"] { width: 60% }
-.skills-item[data-percent="70"] { width: 70% }
-.skills-item[data-percent="80"] { width: 80% }
-.skills-item[data-percent="90"] { width: 90% } */
 
-       
-  
-.html { 
-color: #DDDDDD;
-margin: 3px;
-list-style-type: none; 
-text-align: right; 
-width: 90%; 
-background-color: #04AA6D;}
-.css { color: #DDDDDD;
-margin: 3px;
-list-style-type: none; 
-text-align: right;
-width: 80%; 
-background-color: #2196F3;
 }
-.js { 
-color: #DDDDDD;
-margin: 3px;
-list-style-type:none; 
-text-align: right;
-none;width: 65%; 
-background-color: #f44336;
+
+.skills-item[data-percent="10"] {
+    width: 10%
 }
-.python { 
-color: #DDDDDD;
-margin: 3px;
-list-style-type: none;
-text-align: right; 
-width: 60%; 
-background-color: #808080;
+
+.skills-item[data-percent="20"] {
+    width: 20%
+}
+
+.skills-item[data-percent="30"] {
+    width: 30%
+}
+
+.skills-item[data-percent="40"] {
+    width: 40%
+}
+
+.skills-item[data-percent="50"] {
+    width: 50%
+}
+
+.skills-item[data-percent="60"] {
+    width: 60%
+}
+
+.skills-item[data-percent="70"] {
+    width: 70%
+}
+
+.skills-item[data-percent="80"] {
+    width: 80%
+}
+
+.skills-item[data-percent="90"] {
+    width: 90%
+}
+
+
+
+.html {
+    color: #DDDDDD;
+    margin: 3px;
+    list-style-type: none;
+    text-align: left;
+    width: 90%;
+    background-color: goldenrod;
+}
+
+.css {
+    color: #DDDDDD;
+    margin: 3px;
+    list-style-type: none;
+    text-align: left;
+    width: 80%;
+    background-color: #718016 ;
+}
+
+.javaEE {
+    color: #DDDDDD;
+    margin: 3px;
+    list-style-type: none;
+    text-align: left;
+    width: 75%;
+    background-color: #a02b22 ;
+}
+
+.js {
+    color: #DDDDDD;
+    margin: 3px;
+    list-style-type: none;
+    text-align: left;
+    width: 65%;
+    background-color: #95169e;
+}
+
+.python {
+    color: #DDDDDD;
+    margin: 3px;
+    list-style-type: none;
+    text-align: left;
+    width: 60%;
+    background-color:#1b6fb3 ;
+}
+
+/********Fin skills*******************/
+.icon-stars {
+    background: url(../Imgs/star-grey.png) no-repeat;
+    width: 110px;
+    height: 14px;
+    float: right;
+}
+
+.icon-stars-red {
+    background: url(../Imgs/star-red.png) no-repeat;
+    width: 110px;
+    height: 14px;
+    float: left;
+}
+
+.obj-stars {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 5px;
+}
+
+.hobby {
+    background-color: yellowgreen;
+    color: blanchedalmond;
+    padding: 8px;
+    font-size: 1em;
+    margin-bottom: 3px;
+}
+
+.footer-p{
+    text-align: center;
+    font-size: 1em;
 }
