@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js01-practica-variables</title>
+
+    <!-- Ejercicio trabajo-->
+    <script>
+        function trabajar(horastrabajadas, sueldoxhora){
+            alert("Tu sueldoo totaal es:" + (horastrabajadas * sueldoxhora));
+        }
+    </script> 
+
+    <!-- Ejercicio operación -->
+    <script>
+        function dividir(v1, v2, resultado){
+            alert("El resultado de la operacion (3+2)/2*5 es " + resultado);
+        }
+    </script>
+
+    <script>
+        function generarImc(peso,altura,operacionimc){
+            alert("Tu IMC es de: " + operacionimc);
+        }
+    </script>
+
+</head>
+<body>
+
+    <!-- Ejercicio trabajo -->
+    <script>
+        let horastrabajadas = prompt ("¿Cuantas horas trabajaste?");
+        let sueldoxhora = prompt ("¿Cuánto ganas por hora?");
+        trabajar(horastrabajadas, sueldoxhora);
+    </script>
+
+    <!-- Ejercicio operación -->
+    <script>
+        let v1 = (3 + 2);
+        let v2 = (2 * 5);
+        let resultado = (v1 / v2);
+        dividir (v1, v2, resultado);
+    </script>
+
+    <script>
+        let peso = prompt("¿Cuántos kilos pesas?");
+        let altura = prompt("¿Cuántos metros mides?");
+        let operacionimc = (peso/altura^2);
+        generarImc (peso, altura, operacion);
+    </script>
+
+    
+    <script src="../INTRO-WEB-7/JS/js01-practica-variables/tiposdedatosyvariables.js"></script>
+</body>
+</html>
