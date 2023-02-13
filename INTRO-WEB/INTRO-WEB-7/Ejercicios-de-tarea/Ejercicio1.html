@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <script>
+        function Ejer1() {
+            document.write("Hola nombre");
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <!-- <script>
+        Ejer1();
+    </script>
+    <br>
+
+    <button onclick="evento ()">¡Cambiar el nombre!</button>
+
+    <script>
+        function evento () {
+    let nombre = prompt("¿Cuál es tu nombre?");
+}
+
+function evento() {
+    document.write("Hola " + nombreIngresado);
+}
+    </script> -->
+
+    <h2>Hola nombre</h2>
+
+    <button onclick="myFunction()">¡Cambiar nombre!</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            let texto;
+            let persona = prompt("¿Cuál es tu nombre?", "Fulanito de tal");
+            if (persona == null || persona == "") {
+                texto = "User cancelled the prompt.";
+            } else {
+                texto = "Hola " + persona;
+            }
+            document.getElementById("demo").innerHTML = texto;
+        }
+    </script>
+
+    <script src="./Ejercicio1.js"></script>
+
+
+</body>
+
+</html>

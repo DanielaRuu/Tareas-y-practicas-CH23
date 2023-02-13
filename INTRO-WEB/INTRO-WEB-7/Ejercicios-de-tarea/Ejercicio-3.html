@@ -1,0 +1,1649 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="http://pierrehermenicolasbuffe.com/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://pierrehermenicolasbuffe.com/images/favicon.ico" type="image/x-icon" />
+    <title>An interactive adventure by Devalapars</title>
+    <meta name="description"
+        content="Once upon a time, there were two kingdoms. One was the Kingdom of the Moon, the other the Kingdom of the Sun…">
+    <link rel="stylesheet" href="http://pierrehermenicolasbuffe.com/css/app.min.css">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="An interactive adventure by Pierre Hermé & Nicolas Buffe" />
+    <meta property="og:site_name" content="An interactive adventure by Pierre Hermé & Nicolas Buffe" />
+    <meta property="og:description"
+        content="Once upon a time, there were two kingdoms. One was the Kingdom of the Moon, the other the Kingdom of the Sun…" />
+    <meta property="og:url" content="http://pierrehermenicolasbuffe.com/en/chapter-1" />
+    <meta property="og:image" content="http://pierrehermenicolasbuffe.com/images/telescope.png" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="800" />
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-20114752-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1634513420212592');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1634513420212592&ev=PageView&noscript=1" /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+</head>
+
+
+<body data-lang="en" class="lang-en blocked ">
+
+    <div class="header  fixed ">
+        <div class="logo black ">
+            <a href="/"><img src="/images/1x1.gif" alt="Pierre Hermé X Nicolas Buffe" /></a>
+        </div>
+        <div class="logo white  show "">
+    <a href=" /"><img src="/images/1x1.gif" alt="Pierre Hermé X Nicolas Buffe" /></a>
+        </div>
+
+        <div class="menu-handler">
+            <button class="menu-icon" id="menu-handler-icon"
+                data-toggle="menu-handler-icon menu-content menu-icon-background" type="button"
+                data-toggler=".active"></button>
+            <div class="menu-icon-background" id="menu-icon-background"><img src="/images/circle.svg" class="svg" />
+            </div>
+            <div id="menu-content" class="menu-content text-center" data-toggler=".active">
+                <div class="table">
+                    <div class="cell">
+                        <div class="row relative">
+                            <div class="medium-10 small-centered columns">
+                                <div class="small-up-3" data-equalizer>
+                                    <div class="column chapter-column right-bar" data-equalizer-watch>
+                                        <div class="chapter relative">
+                                            <a href="/en/chapter-1"></a>
+                                            <div class="image-container">
+                                                <div class="image small-9 small-centered">
+                                                    <img src="/images/menu/chapter_1.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <h5 data-translate="chapter-1">Chapter 1</h5>
+                                            <h6 data-translate="chapter-1-title" class="show-for-medium">Two Kingdoms
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="column chapter-column right-bar" data-equalizer-watch>
+                                        <div class="chapter centered">
+                                            <div class="image-container">
+                                                <div class="image small-6 small-centered">
+                                                    <img src="/images/menu/chapter_2.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <h5 data-translate="chapter-2">Chapter 2</h5>
+                                            <small data-translate="soon" class="show-for-medium">(soon)</small>
+                                        </div>
+                                    </div>
+                                    <div class="column chapter-column" data-equalizer-watch>
+                                        <div class="chapter centered">
+                                            <div class="image-container">
+                                                <div class="image small-6 small-centered">
+                                                    <img src="/images/menu/chapter_3.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <h5 data-translate="chapter-3">Chapter 3</h5>
+                                            <small data-translate="soon" class="show-for-medium">(soon)</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row bio">
+                            <div class="large-3 medium-4 small-6 columns small-centered">
+                                <a href="/en/biography">
+                                    <img src="/images/biography_menu_icon.png" />
+                                    <p data-translate="biography">Characters' biographies</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="row">
+                        <div class="large-10 columns small-centered clearfix" data-equalizer data-equalize-on="small">
+                            <div class="medium-3 columns">
+                                <div class="medium-6 columns">
+                                    <label data-translate="choose-language">Choose the language</label>
+                                </div>
+                                <div class="medium-6 small-12 columns">
+                                    <form action="/" class="menu-language-selector" method="POST">
+                                        <select name="language">
+                                            <option data-translate="english" value="en">English</option>
+                                            <option data-translate="japanese" value="jp">Japanese</option>
+                                            <option data-translate="french" value="fr">French</option>
+                                        </select>
+                                        <input type="hidden" value="en/chapter-1" name="path" />
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="small-6 columns relative" data-equalizer-watch>
+                                <div class="full-height absolute relative-for-small">
+                                    <div class="table">
+                                        <div class="cell">
+                                            <ul class="vertical medium-horizontal menu">
+                                                <li><a data-translate="menu-pierreherme" data-translate-link
+                                                        href="http://pierreherme.com">Pierre Hermé Paris Website</a>
+                                                </li>
+                                                <li><a data-translate="menu-about" href="/en/about">About</a></li>
+                                                <li><a data-translate="menu-legal" href="/en/legal">Legal Notice</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-3 small-6 columns relative-for-small" data-equalizer-watch>
+                                <ul class="menu socials">
+                                    <li><a target="_blank" data-translate data-translate-link="menu-fb"
+                                            href="https://www.facebook.com/PierreHermeLDN"><span><img
+                                                    src="/images/scene_13/facebook.svg" class="svg" /></span></a></li>
+                                    <li><a target="_blank" data-translate data-translate-link="menu-tw"
+                                            href="https://twitter.com/PierreHerme"><span><img
+                                                    src="/images/scene_13/twitter.svg" class="svg" /></span></a></li>
+                                    <li><a target="_blank" data-translate data-translate-link="menu-insta"
+                                            href="http://instagram.com/pierrehermeofficial/"><span><img
+                                                    src="/images/scene_13/instagram.svg" class="svg" /></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="loader full-height absolute show">
+        <div class="row full-height">
+            <div class="table">
+                <div class="cell">
+                    <div class="large-12 columns small-centered text-center">
+                        <div class="helios-loader-wrap">
+                            <div class="helios-laoder-container">
+                                <div class="helios-loader fast">
+                                </div>
+                            </div>
+
+                            <h6>Loading...</h6>
+                        </div>
+                        <div class="navigation-wrap">
+                            <h6>Drag the button to continue</h6>
+                            <div class="navigation navigation-intro navigation-black">
+                                <div class="dots-container">
+                                    <div class="dots-relative">
+                                        <div class="dots"></div>
+                                    </div>
+                                </div>
+                                <div class="go-button" data-launcher>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="arrival-area"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scene show" id="scene-1">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="false">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-2" data-show="slide-up" data-hide="slide-up">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="scene-background-container"></div>
+        <div class="row expanded">
+            <div class="table">
+                <div class="cell">
+                    <div class="small-12 small-centered text-center hidden invisible">
+                        <div class="chapter-name">
+                            <h2>CHAPTER 1</h2>
+                            <h1>TWO KINGDOMS</h1>
+                        </div>
+                    </div>
+                    <div class="x-large-6 large-3 medium-5 small-12 small-centered">
+                        <div class="telescope-container-border">
+                            <div class="stars">
+                                <div class="sun"></div>
+                                <div class="moon"></div>
+                            </div>
+                            <div class="telescope-hider"></div>
+                            <div class="telescope-container">
+                                <div class="telescope" id="telescope">
+                                    <canvas id="layer-1" class="sketch layer layer-1"></canvas>
+                                    <canvas id="layer-2" class="sketch layer layer-2"></canvas>
+                                    <canvas id="layer-3" class="sketch layer layer-3"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-12 small-centered text-center">
+                        <div class="chapter-name">
+                            <h2>CHAPTER 1</h2>
+                            <h1>TWO KINGDOMS</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scene" id="scene-2">
+        <div class="row expanded full-height">
+
+            <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="false">
+                <div class="dots-container">
+                    <div class="dots-relative">
+                        <div class="dots"></div>
+                    </div>
+                </div>
+                <div class="go-button" data-nav="scene-3" data-show="slide-up" data-hide="fade">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="arrival-area"></div>
+            </div>
+
+            <div class="table">
+                <div class="cell">
+                    <div class="text-container" data-class-active="show">
+                        <div class="text-container-top"></div>
+                        <p>
+                            Once upon a time,<br />there were two Kingdoms... </p>
+                        <div class="text-container-bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scene" id="scene-3">
+
+        <div class="scene-background-container" data-class-active="show"></div>
+
+        <div class="fullscreen-overlay">
+
+            <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="false">
+                <div class="dots-container">
+                    <div class="dots-relative">
+                        <div class="dots"></div>
+                    </div>
+                </div>
+                <div class="go-button" data-nav="scene-4" data-show="slide-up" data-hide="slide-up">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="arrival-area"></div>
+            </div>
+
+
+            <div class="text-container" data-class-active="show">
+                <div class="text-container-top"></div>
+                <p>
+                    The Kingdom of the Moon... </p>
+                <div class="text-container-bottom"></div>
+            </div>
+
+
+        </div>
+
+        <div class="row expanded">
+            <div class="large-12 large-centered">
+                <div class="moon-kingdom-container">
+                    <div class="moon-kingdom" id="moon-kingdom">
+                        <canvas class="sketch sketch-fullscreen layer layer-1"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scene" id="scene-4">
+
+        <div class="navigation navigation-blue " data-class-active="show" data-add-class-disabled="false">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-5" data-show="slide-up" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row expanded">
+            <div class="large-12 large-centered">
+
+                <div class="text-container" data-class-active="show">
+                    <div class="text-container-top"></div>
+                    <p>
+                        And the Kingdom of the Sun... </p>
+                    <div class="text-container-bottom"></div>
+                </div>
+
+                <div class="sun-kingdom-container">
+                    <div class="sun-kingdom" id="sun-kingdom">
+                        <canvas class="sketch sketch-fullscreen layer layer-1"></canvas>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-5">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="false">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-6" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row full-height">
+            <div class="large-12 large-centered full-height">
+
+                <div class="text-container text-container-center" data-class-active="show">
+                    <p>
+                        The Queen of the Kingdom of the Moon, Séléna, has two daughters. </p>
+                    <div class="text-container-bottom"></div>
+                </div>
+
+                <div class="moon-kingdom-caracter-container full-height">
+                    <div class="moon-kingdom-caracter full-height">
+                        <div class="row collapse full-height">
+                            <div class="small-3 small-offset-1 columns full-height relative">
+                                <div class="caracter-container">
+                                    <div class="caracter caracter-roxanne relative">
+                                        <img src="/images/scene_5/roxanne.png" />
+                                        <div class="text-container text-container-left" data-class-active="show">
+                                            <p>
+                                                Roxane,<br />the eldest </p>
+                                            <div class="text-container-bottom"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-4 columns full-height  relative">
+                                <div class="caracter-container">
+                                    <div class="caracter caracter-selena">
+                                        <img src="/images/scene_5/selena.png" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-3 columns full-height relative end">
+                                <div class="caracter-container">
+                                    <div class="caracter caracter-lily relative">
+                                        <img src="/images/scene_5/lily.png" />
+                                        <div class="text-container text-container-right" data-class-active="show">
+                                            <p>
+                                                Lily,<br />the youngest </p>
+                                            <div class="text-container-bottom"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-6">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-7" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="scene-background-container rotating show"></div>
+
+        <div class="row expanded full-height">
+            <div class="large-12 large-centered full-height">
+
+                <div class="text-container text-container-first">
+                    <div class="text-container-top"></div>
+                    <p>
+                        Princess of the Kingdom of the Moon<br />Intrepid and adventurous<br />Roxane acts like a real
+                        tomboy. </p>
+                    <div class="text-container-bottom"></div>
+                </div>
+
+                <div class="text-container text-container-second">
+                    <div class="text-container-top"></div>
+                    <p>
+                        Her little sister Lily is graceful and excitable. She has a little Black Cat. </p>
+                    <div class="text-container-bottom"></div>
+                </div>
+
+                <div class="moon-kingdom-tower-container full-height">
+                    <div class="moon-kingdom-tower full-height">
+                        <canvas class="sketch sketch-fullscreen layer layer-1"></canvas>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="scene" id="scene-7">
+
+        <div class="navigation navigation-blue " data-class-active="show" data-add-class-disabled="false">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-8" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse full-height relative">
+            <div class="clouds-container full-height absolute">
+                <div class="large-12 full-height">
+                    <div class="row collapse full-height">
+                        <div class="small-3 small-offset-1 columns full-height relative">
+                            <div class="cloud left-cloud">
+                                <img src="/images/scene_4/cloud1@2x.png" />
+                            </div>
+                        </div>
+                        <div class="small-4 columns full-height relative">
+                            <div class="cloud middle-cloud">
+                                <img src="/images/scene_4/cloud3@2x.png" />
+                            </div>
+                        </div>
+                        <div class="small-3 columns full-height relative end">
+                            <div class="cloud right-cloud">
+                                <img src="/images/scene_4/cloud13@2x.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="large-12 full-height">
+
+                <div class="text-container text-container-center" data-class-active="show">
+                    <p>
+                        Zénon, the King of the Kingdom of the Sun, has two sons. </p>
+                    <div class="text-container-bottom"></div>
+                </div>
+
+                <div class="moon-kingdom-caracter-container full-height">
+                    <div class="moon-kingdom-caracter full-height">
+                        <div class="row collapse full-height">
+                            <div class="small-3 small-offset-1 columns full-height relative">
+                                <div class="caracter-container">
+                                    <div class="caracter caracter-maskero relative">
+                                        <img src="/images/scene_7/maskero.png" />
+                                        <div class="text-container text-container-left" data-class-active="show">
+                                            <p>
+                                                Maskero,<br />the eldest </p>
+                                            <div class="text-container-bottom"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-4 columns full-height  relative">
+                                <div class="caracter-container">
+                                    <div class="caracter caracter-zenon">
+                                        <img src="/images/scene_7/zenon.png" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-3 columns full-height relative end">
+                                <div class="caracter-container">
+                                    <div class="caracter caracter-helios relative">
+                                        <img src="/images/scene_7/helios.png" />
+                                        <div class="text-container text-container-right" data-class-active="show">
+                                            <p>
+                                                Hélios,<br />the youngest </p>
+                                            <div class="text-container-bottom"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-8">
+
+        <div class="navigation navigation-light-blue " data-class-active="show" data-add-class-disabled="false">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-9" data-show="slide-up" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="small-7 columns full-height">
+                        <div class="heliosandmaskero"></div>
+                    </div>
+                    <div class="small-5 columns full-height relative">
+                        <div class="text-container" data-class-active="show">
+                            <div class="text-container-top"></div>
+                            <p>
+                                Hélios is a gentle dreamer and a scapegoat<br />for his older brother who never misses
+                                an opportunity to torment him. </p>
+                            <div class="text-container-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caracter-presentation-heliosandmaskero-container full-height">
+                    <div class="caracter-presentation-heliosandmaskero full-height">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-9">
+
+        <div class="navigation navigation-grey " data-class-active="show" data-add-class-disabled="false">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-10" data-show="slide-up" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="small-3 small-offset-1 columns full-height relative">
+                        <div class="text-container" data-class-active="show">
+                            <div class="text-container-top"></div>
+                            <p>
+                                Hélios doesn't think he'll ever take his father King Zénon's place on the
+                                throne,<br />as his impetuous older brother Maskero<br />is next in line and is also
+                                much better<br />than him at so many things. </p>
+                            <div class="text-container-bottom"></div>
+                        </div>
+                    </div>
+                    <div class="small-7 columns full-height relative end">
+                        <div class="caracter-presentation-helios-container full-height">
+                            <div class="caracter-presentation-helios full-height">
+                                <div class="helios"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-10">
+
+        <div class="navigation navigation-white " data-class-active="show" data-add-class-disabled="false">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-11" data-show="slide-up" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="small-6 columns full-height relative">
+                        <div class="text-container" data-class-active="show">
+                            <div class="text-container-top"></div>
+                            <p>
+                                Hélios' loyal little robot friend Cupidon<br />is there to comfort and advise him. </p>
+                            <div class="text-container-bottom"></div>
+                        </div>
+                    </div>
+                    <div class="small-6 columns full-height relative end">
+                        <div class="caracter-presentation-cupidon-container full-height">
+                            <div class="caracter-presentation-cupidon full-height">
+                                <div class="helios">
+                                    <div class="cupidon"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-11">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-12" data-show="slide-up" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="text-container text-container-first">
+                        <div class="text-container-top"></div>
+                        <p>
+                            Every evening, Cupidon and Hélios withdraw to scrutinise the Kingdom of the Moon through a
+                            telescope. Hélios dreams of adventure... </p>
+                        <div class="text-container-bottom"></div>
+                    </div>
+
+                    <div class="text-container text-container-second">
+                        <div class="text-container-top"></div>
+                        <p>
+                            But one day, as he is admiring<br /> the Moon Queen's Palace,<br />he sees something that
+                            could turn<br /> his life upside down... </p>
+                        <div class="text-container-bottom"></div>
+                    </div>
+
+                    <div class="row expanded">
+                        <div class="large-12 large-centered">
+                            <div class="helios-room-container">
+                                <div class="helios-room" id="helios-room">
+                                    <canvas class="sketch sketch-fullscreen layer layer-1"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-12">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-13" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+        <div class="popin absolute">
+            <div class="row collapse expanded full-height">
+                <div class="large-12 full-height">
+                    <div class="text-container">
+                        <div class="text-container-top"></div>
+                        <div class="text-container-content">
+                            <p>Use the telescope to find out what Hélios sees.</p>
+                            <div class="round-icon">
+                                <img src="/images/scene_12/telescope_icon.svg" class="svg" />
+                            </div>
+                        </div>
+                        <div class="text-container-bottom">
+                            <a href="#" class="continue-button" data-popin-close>START</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="text-container text-container-first">
+                        <div class="text-container-top"></div>
+                        <p>
+                            He sees the beautiful Princess Roxane and instantly falls in love. </p>
+                        <div class="text-container-bottom"></div>
+                    </div>
+
+                    <div class="row expanded full-height">
+                        <div class="large-12 large-centered full-height">
+                            <div class="telescope-container full-height">
+                                <div class="telescope" id="telescope">
+                                    <div class="borders">
+                                        <div class="top-left"></div>
+                                        <div class="top"></div>
+                                        <div class="top-right"></div>
+                                        <div class="right"></div>
+                                        <div class="center"></div>
+                                        <div class="bottom-right"></div>
+                                        <div class="bottom"></div>
+                                        <div class="bottom-left"></div>
+                                        <div class="left"></div>
+                                    </div>
+                                </div>
+
+                                <div class="backgrounds">
+                                    <div class="telescope-background">
+                                        <div class="test"></div>
+                                        <canvas class="sketch sketch-fullscreen layer layer-1"></canvas>
+                                    </div>
+                                    <div class="scene-background-container canvas-background rotating"></div>
+
+                                    <div class="zoomed-view blurred">
+                                        <div class="zoomed-view-scene"></div>
+                                        <div class="scene-background-container rotating"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-13">
+
+        <div class="navigation hide " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-14" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+
+        <div class="row collapse full-height relative">
+
+            <div class="crm-container full-height">
+                <div class="table">
+                    <div class="cell">
+
+                        <div class="crm text-center">
+                            <div class="large-4 medium-6 small-centered columns clearfix">
+
+                                <h3 class="large-12">CONGRATULATIONS</h3>
+
+                                <div class="small-6 small-centered">
+                                    <img src="/images/scene_13/filliation@2x.jpg" />
+                                </div>
+
+                                <div class="large-12 large-centered">
+                                    <p>
+                                        Congratulations, you found Roxane and unlocked the character cards. Discover all
+                                        of the heroes of the Two Kingdoms now.<br /> Look out for any clues that may
+                                        lead you to disccover how the story continues! </p>
+                                </div>
+                                <div class="large-12">
+                                    <a href="/special/caracters_map_en.jpg" target="_blank" class="link">Download the
+                                        menu</a>
+                                </div>
+
+                                <div class="large-12">
+                                    <div class="button-group socials">
+                                        <a target="_blank"
+                                            href="https://www.facebook.com/dialog/feed?app_id=1820607304892474&display=popup&picture=http://pierrehermenicolasbuffe.com/images/telescope.png&link=http://pierrehermenicolasbuffe.com/en/chapter-1&description=Become+the+narrator+of+A+Story+of+the+Kingdoms+of+the+Moon+and+of+the+Sun%2C+an+interactive+adventure+created+by+Nicolas+Buffe+and+the+Maison+Pierre+Herm%C3%A9+Paris%21&redirect_uri=http://pierrehermenicolasbuffe.com/en/chapter-1"
+                                            class="button social"><img src="/images/scene_13/facebook.svg"
+                                                class="svg" /></a>
+                                        <a target="_blank"
+                                            href="http://twitter.com/intent/tweet?text=Discover+Discover+%22A+Story+of+the+Kingdoms+of+the+Moon+and+of+the+Sun%22+by+%40NicolasBuffe+x+%40PierreHerme+on&url=http%3A%2F%2Fwww.pierrehermenicolasbuffe.com%2F%E2%80%8B&hashtags=PHxNB"
+                                            class="button social"><img src="/images/scene_13/twitter.svg"
+                                                class="svg" /></a>
+                                        <a target="_blank"
+                                            href="http://pinterest.com/pin/create/button/?url=http://pierrehermenicolasbuffe.com/en/chapter-1&media=http://pierrehermenicolasbuffe.com/images/telescope.png&description=Become+the+narrator+of+A+Story+of+the+Kingdoms+of+the+Moon+and+of+the+Sun%2C+an+interactive+adventure+created+by+Nicolas+Buffe+and+the+Maison+Pierre+Herm%C3%A9+Paris%21"
+                                            class="button social"><img src="/images/scene_13/pinterest.svg"
+                                                class="svg" /></a>
+                                    </div>
+                                </div>
+
+                                <div class="large-12">
+                                    <div class="button-container large-5 small-6 small-centered">
+                                        <a href="#" class="button form-button white-button"
+                                            data-nav-trigger>CONTINUE</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="scene" id="scene-14">
+
+        <div class="navigation navigation-blue " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-15" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="popin absolute">
+            <div class="row collapse full-height relative">
+
+                <div class="crm-container full-height">
+                    <div class="table">
+                        <div class="cell">
+
+                            <div class="crm text-center">
+                                <div class="large-4 medium-6 small-centered columns clearfix">
+
+                                    <h3 class="large-12">HÉLIOS' ICHTYORACER</h3>
+
+                                    <div class="small-10 small-centered">
+                                        <img src="/images/scene_14/ichtyoracer_popin.png" />
+                                    </div>
+
+                                    <div class="large-12 large-centered">
+                                        <p>
+                                            Discover the technical features of Hélios' IchtyoRacer,<br /> a machine
+                                            built for speed. </p>
+                                    </div>
+                                    <div class="large-12">
+                                        <a href="/special/ichtyoracer.jpg" target="_blank" class="link">Download the
+                                            card</a>
+                                    </div>
+
+                                    <div class="large-12">
+                                        <div class="button-group socials">
+                                            <a target="_blank"
+                                                href="https://www.facebook.com/dialog/feed?app_id=1820607304892474&display=popup&picture=http://pierrehermenicolasbuffe.com/images/telescope.png&link=http://pierrehermenicolasbuffe.com/en/chapter-1&description=Become+the+narrator+of+A+Story+of+the+Kingdoms+of+the+Moon+and+of+the+Sun%2C+an+interactive+adventure+created+by+Nicolas+Buffe+and+the+Maison+Pierre+Herm%C3%A9+Paris%21&redirect_uri=http://pierrehermenicolasbuffe.com/en/chapter-1"
+                                                class="button social"><img src="/images/scene_13/facebook.svg"
+                                                    class="svg" /></a>
+                                            <a target="_blank"
+                                                href="http://twitter.com/intent/tweet?text=Discover+Discover+%22A+Story+of+the+Kingdoms+of+the+Moon+and+of+the+Sun%22+by+%40NicolasBuffe+x+%40PierreHerme+on&url=http%3A%2F%2Fwww.pierrehermenicolasbuffe.com%2F%E2%80%8B&hashtags=PHxNB"
+                                                class="button social"><img src="/images/scene_13/twitter.svg"
+                                                    class="svg" /></a>
+                                            <a target="_blank"
+                                                href="http://pinterest.com/pin/create/button/?url=http://pierrehermenicolasbuffe.com/en/chapter-1&media=http://pierrehermenicolasbuffe.com/images/telescope.png&description=Become+the+narrator+of+A+Story+of+the+Kingdoms+of+the+Moon+and+of+the+Sun%2C+an+interactive+adventure+created+by+Nicolas+Buffe+and+the+Maison+Pierre+Herm%C3%A9+Paris%21"
+                                                class="button social"><img src="/images/scene_13/pinterest.svg"
+                                                    class="svg" /></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="large-12">
+                                        <div class="button-container large-5 small-6 small-centered">
+                                            <a href="#" class="button form-button white-button"
+                                                data-popin-close>CONTINUE</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+
+            <div class="text-container">
+                <div class="text-container-top" data-class-active="show"></div>
+                <p>
+                    One day, King Zénon sets his two sons a symbolic test to see who will inherit the throne:<br /> an
+                    IchtyoRacers contest in the Sun Kingdom stadium for them to prove their bravery. </p>
+                <div class="text-container-bottom"></div>
+            </div>
+
+            <div class="stadium-container">
+                <canvas class="sketch sketch-fullscreen layer layer-1"></canvas>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="scene" id="scene-15">
+
+        <div class="navigation navigation-blue " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-16" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="popin absolute">
+            <div class="row collapse expanded full-height">
+                <div class="large-12 full-height">
+                    <div class="text-container">
+                        <div class="text-container-top"></div>
+                        <div class="text-container-content">
+                            <p>Use the space bar to move Hélios'IchtyoRacer.</p>
+                            <div class="round-icon">
+                                <img src="/images/scene_15/keyboard_icon.svg" class="svg" />
+                            </div>
+                        </div>
+                        <div class="text-container-bottom">
+                            <a href="#" class="continue-button" data-popin-close>START</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row collapse expanded full-height relative">
+
+            <div class="text-container text-container-first">
+                <div class="text-container-top" data-class-active="show"></div>
+                <p>
+                    Hélios takes the lead! <br /> But Maskero makes an unexpected move that will change everything. He
+                    looks in trouble and is on the brink of death... </p>
+                <div class="text-container-bottom"></div>
+            </div>
+
+            <div class="text-container text-container-second">
+                <div class="text-container-top" data-class-active="show"></div>
+                <p>
+                    Hélios witnesses the accident and chooses to save his brother, even if it means losing his
+                    lead.<br />Find out what happens next in the race </p>
+                <div class="text-container-bottom"></div>
+            </div>
+
+            <div class="text-container text-container-third">
+                <div class="text-container-top" data-class-active="show"></div>
+                <p>
+                    After being saved by Hélios, Maskero takes the lead and ends up winning the race. </p>
+                <div class="text-container-bottom"></div>
+            </div>
+
+            <div class="race-container">
+                <canvas class="sketch sketch-fullscreen layer layer-1"></canvas>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="scene" id="scene-16">
+
+        <div class="navigation navigation-blue " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-17" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="scene-background-container"></div>
+
+        <div class="row collapse expanded full-height relative">
+
+            <div class="text-container text-container-first">
+                <div class="text-container-top" data-class-active="show"></div>
+                <p>
+                    The events, which demonstrate the nobility and virtue of Hélios<br />but also Maskero's lack of
+                    empathy and vindictive nature, touch the King. </p>
+                <div class="text-container-bottom"></div>
+            </div>
+
+            <div class="text-container text-container-second">
+                <div class="text-container-top" data-class-active="show"></div>
+                <p>
+                    They become crucial in his choice for his successor,<br />by saving his brother's life, Hélios
+                    showed he was thoughtful and unselfish. </p>
+                <div class="text-container-bottom"></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="scene" id="scene-17">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="false">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-18" data-show="fade" data-hide="slide-up">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="small-5 columns full-height relative">
+
+                        <div class="text-container text-container-first" data-class-active="show">
+                            <div class="text-container-top"></div>
+                            <p>
+                                Having won the race, <br /> Maskero is convinced he will inherit the throne... </p>
+                            <div class="text-container-bottom"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="small-7 columns full-height relative">
+                        <div class="maskero-thinking-container full-height full-width">
+                            <div class="ichtyonef"></div>
+                            <div class="maskero-thinking" id="maskero-thinking"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-18">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="false">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-19" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height collapse">
+
+                    <div class="text-container text-container-first" data-class-active="show">
+                        <div class="text-container-top"></div>
+                        <div class="text-container-content">
+                            <p>
+                                Both the King and Queen, each on their own side, worry about their children's capacity
+                                to one day reign over their Kingdoms. </p>
+                        </div>
+                        <div class="text-container-bottom"></div>
+                    </div>
+
+                    <div class="small-6 columns full-height relative">
+                        <div class="zenon-left-side full-height full-width" data-class-active="show"></div>
+                    </div>
+
+                    <div class="small-6 columns full-height relative">
+                        <div class="selena-right-side full-height full-width" data-class-active="show"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-19">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-20" data-show="fade" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="text-container text-container-first">
+                        <div class="text-container-top"></div>
+                        <div class="text-container-content">
+                            <p>
+                                A few days after the race, Maskero hears that King Zénon is planning on giving the
+                                throne to his younger son, Hélios, who he considers to be more virtuous than his
+                                brother. </p>
+                        </div>
+                        <div class="text-container-bottom"></div>
+                    </div>
+
+                    <div class="row expanded full-height">
+                        <div class="large-12 large-centered full-height">
+                            <div class="throne-room-container full-height">
+                                <div class="throne-room full-height" id="throne-room">
+                                    <canvas class="sketch sketch-fullscreen layer layer-1"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-20">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-21" data-show="slide-up" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="text-container text-container-first">
+                        <div class="text-container-top"></div>
+                        <div class="text-container-content">
+                            <p>
+                                While his brother is not there, Maskero goes to see what he was observing. </p>
+                        </div>
+                        <div class="text-container-bottom"></div>
+                    </div>
+
+                    <div class="row expanded full-height">
+                        <div class="large-12 large-centered full-height">
+                            <div class="helios-room-bis-container full-height">
+                                <div class="helios-room-bis full-height" id="helios-room-bis">
+                                    <canvas class="sketch sketch-fullscreen layer layer-1"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-21">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-22" data-show="fade" data-hide="slide-up">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="text-container text-container-first">
+                        <div class="text-container-top"></div>
+                        <p>
+                            He sees a princess who he finds pretty. He is looking at Lily, rather than Roxane. </p>
+                        <div class="text-container-bottom"></div>
+                    </div>
+
+                    <div class="row expanded full-height">
+                        <div class="large-12 large-centered full-height">
+                            <div class="telescope-container full-height">
+                                <div class="telescope" id="telescope">
+                                    <div class="borders">
+                                        <div class="top-left"></div>
+                                        <div class="top"></div>
+                                        <div class="top-right"></div>
+                                        <div class="right"></div>
+                                        <div class="center"></div>
+                                        <div class="bottom-right"></div>
+                                        <div class="bottom"></div>
+                                        <div class="bottom-left"></div>
+                                        <div class="left"></div>
+                                    </div>
+                                </div>
+                                <div class="zoomed-view-container">
+                                    <div class="zoomed-view blurred">
+                                        <div class="zoomed-view-scene"></div>
+                                        <div class="scene-background-container rotating"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <div class="scene" id="scene-22">
+
+        <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-23" data-show="slide-up" data-hide="fade">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+
+        <div class="row collapse expanded full-height relative">
+            <div class="large-12 full-height">
+                <div class="row full-height">
+
+                    <div class="small-6 columns full-height relative">
+                        <div class="text-container text-container-first">
+                            <div class="text-container-top"></div>
+                            <p>
+                                Wrongly assuming that his brother has fallen in love with Princess Lily, Maskero decides
+                                to take revenge by kidnapping the youngest daughter of the Queen of the Night, Séléna.
+                            </p>
+                            <div class="text-container-bottom"></div>
+                        </div>
+
+                        <div class="text-container text-container-second">
+                            <div class="text-container-top"></div>
+                            <p>
+                                "His strategy? To have his brother Hélios wrongly accused of the kidnapping <br />to
+                                discredit him and take back the throne." </p>
+                            <div class="text-container-bottom"></div>
+                        </div>
+                    </div>
+                    <div class="small-6 columns full-height relative end">
+                        <div class="caracter-presentation-maskero-container full-height">
+                            <div class="caracter-presentation-maskero full-height">
+                                <div class="maskero"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="scene" id="scene-23">
+        <div class="row expanded full-height">
+
+            <div class="navigation navigation-black " data-class-active="show" data-add-class-disabled="false">
+                <div class="dots-container">
+                    <div class="dots-relative">
+                        <div class="dots"></div>
+                    </div>
+                </div>
+                <div class="go-button" data-nav="scene-end" data-show="fade" data-hide="slide-up">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="arrival-area"></div>
+            </div>
+
+
+            <div class="table">
+                <div class="cell">
+                    <div class="text-container" data-class-active="show">
+                        <div class="text-container-top"></div>
+                        <p>
+                            So what is Maskero's evil plan? The story continues... </p>
+                        <div class="text-container-bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scene" id="scene-end" data-navigation-show="true">
+
+        <div class="navigation hide " data-class-active="show" data-add-class-disabled="true">
+            <div class="dots-container">
+                <div class="dots-relative">
+                    <div class="dots"></div>
+                </div>
+            </div>
+            <div class="go-button" data-nav="scene-end" data-show="slide-up" data-hide="">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="arrival-area"></div>
+        </div>
+
+        <div class="modal">
+            <div class="modal-top"></div>
+            <div class="modal-content">
+                <div class="content">
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <h5 class="text-center">Inscription</h5>
+                        </div>
+                        <form action="/newsletterSubscription" method="POST">
+                            <div class="small-6 columns">
+                                <input type="text" name="lastName" placeholder="Enter your last name" />
+                            </div>
+                            <div class="small-6 columns">
+                                <input type="text" name="firstName" placeholder="Enter your first name" />
+                            </div>
+                            <div class="small-6 columns">
+                                <input type="text" name="zipCode" placeholder="Enter your zip code" />
+                            </div>
+                            <div class="small-12 columns">
+
+                                <label for="optin"> <input type="checkbox" id="optin" name="optin" />By clicking on
+                                    "Confirm" you will be agreeing to receive news from the Maison Pierre Hermé
+                                    Paris.*</label>
+                            </div>
+                            <div class="small-12 columns">
+                                <input type="submit" value="Confirm" />
+                            </div>
+                            <input type="hidden" name="email" value="" />
+                            <input type="hidden" name="country" value="en" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-bottom"></div>
+        </div>
+
+        <div class="row collapse full-height relative">
+
+            <div class="table">
+                <div class="cell">
+                    <div class="row">
+                        <div class="small-12 text-center">
+                            <h3>To be continued</h3>
+                        </div>
+                        <div class="small-10 large-6 xlarge-5 text-center small-centered columns">
+                            <p>
+                                Subscribe to the newsletter to keep up with the adventures of Hélios & Roxane to and
+                                enjoy special privileges, such as product previews, tastings and exclusive offers. </p>
+                        </div>
+                        <div class="form">
+                            <div class="medium-10 large-6 xlarge-5 small-centered">
+                                <div class="small-12 columns">
+                                    <div class="row collapse">
+                                        <div class="large-11 small-10 columns">
+                                            <input type="email" class="mail" placeholder="Enter your email address" />
+                                            <div class="thanks text-center hide">You have been successfully registered
+                                                for the newsletter.</div>
+                                            <div class="already text-center hide">You have already registered for the
+                                                newsletter.</div>
+                                        </div>
+                                        <div class="large-1 small-2 columns relative">
+                                            <input class="float-right" type="submit" value="ok" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="small-up-3">
+                            <div class="column">
+                                <div class="crm-container text-center">
+                                    <div class="image">
+                                        <div class="image-absolute">
+                                            <div class="small-8 small-centered relative full-height">
+                                                <div class="socials">
+                                                    <div class="social facebook">
+                                                        <a target="_blank"
+                                                            href="https://www.facebook.com/dialog/feed?app_id=1820607304892474&display=popup&picture=http://pierrehermenicolasbuffe.com/images/telescope.png&link=http://pierrehermenicolasbuffe.com/en/chapter-1&description=Become+the+narrator+of+A+Story+of+the+Kingdoms+of+the+Moon+and+of+the+Sun%2C+an+interactive+adventure+created+by+Nicolas+Buffe+and+the+Maison+Pierre+Herm%C3%A9+Paris%21&redirect_uri=http://pierrehermenicolasbuffe.com/en/chapter-1"></a>
+                                                        <div class="bubble-container">
+                                                            <div class="bubble">
+                                                                <img src="/images/scene_13/facebook.svg" class="svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="social twitter">
+                                                        <a target="_blank"
+                                                            href="http://twitter.com/intent/tweet?text=Discover+Discover+%22A+Story+of+the+Kingdoms+of+the+Moon+and+of+the+Sun%22+by+%40NicolasBuffe+x+%40PierreHerme+on&url=http%3A%2F%2Fwww.pierrehermenicolasbuffe.com%2F%E2%80%8B&hashtags=PHxNB"></a>
+                                                        <div class="bubble-container">
+                                                            <div class="bubble">
+                                                                <img src="/images/scene_13/twitter.svg" class="svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="social pinterest">
+                                                        <a target="_blank"
+                                                            href="http://pinterest.com/pin/create/button/?url=http://pierrehermenicolasbuffe.com/en/chapter-1&media=http://pierrehermenicolasbuffe.com/images/telescope.png&description=Become+the+narrator+of+A+Story+of+the+Kingdoms+of+the+Moon+and+of+the+Sun%2C+an+interactive+adventure+created+by+Nicolas+Buffe+and+the+Maison+Pierre+Herm%C3%A9+Paris%21"></a>
+                                                        <div class="bubble-container">
+                                                            <div class="bubble">
+                                                                <img src="/images/scene_13/pinterest.svg" class="svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>SHARE THE EXPERIENCE</h4>
+                                    <p>Follow the news of the Maison Pierre Hermé Paris on social networks:</p>
+                                    <ul class="menu horizontal">
+                                        <li><a target="_blank" href="https://www.facebook.com/PierreHermeLDN"><img
+                                                    src="/images/scene_13/facebook.svg" class="svg" /></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/PierreHerme"><img
+                                                    src="/images/scene_13/twitter.svg" class="svg" /></a></li>
+                                        <li><a target="_blank" href="http://instagram.com/pierrehermeofficial/"><img
+                                                    src="/images/scene_13/instagram.svg" class="svg" /></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="crm-container text-center relative">
+                                    <a target="_blank"
+                                        href="http://www.pierreherme.com/pierre-herme-nicolas-buffe?___store=english&___from_store=french"
+                                        class="crm-container-link"></a>
+                                    <div class="image">
+                                        <div class="image-relative absolute full-height full-width">
+                                            <div class="small-8 small-centered full-height relative">
+                                                <img class="vertical-center" src="/images/scene_end/collab.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>AN ARTISTIC COLLABORATION</h4>
+                                    <p>
+                                        Discover the universe created from the partnership between<br />the world of
+                                        Nicolas Buffe and Pierre Hermé's creations. </p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="crm-container text-center relative">
+                                    <a target="_blank"
+                                        href="http://www.pierreherme.com/boutiques/?___store=english&___from_store=french"
+                                        class="crm-container-link" data-store-locator></a>
+                                    <div class="image">
+                                        <div class="image-relative absolute full-height full-width">
+                                            <div class="small-8 small-centered full-height relative">
+                                                <img class="vertical-center" src="/images/scene_end/locator.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>FIND A STORE</h4>
+                                    <p>
+                                        The Pierre Hermé x Nicolas Buffe creations are exclusively<br /> available in
+                                        Pierre Hermé Paris boutiques in France,<br />Japan, London and Hong Kong. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="store-locator">
+
+            <div class="store-locator-modal">
+                <div class="store-locator-modal-content">
+                    <a class="button close-button"></a>
+                    <p></p>
+                    <a href="#" class="more button form-button black-button">Find out more</a>
+                </div>
+            </div>
+
+            <label>
+                <span>Country:</span>
+
+                <select>
+                    <option value="en">United Kingdom</option>
+                    <option value="jp">Japan</option>
+                    <option value="fr">France</option>
+                    <option value="cn">Hong Kong</option>
+                </select>
+            </label>
+
+            <div class="store-locator-wrap">
+                <div class="store-locator-header"></div>
+                <div class="store-locator-top"></div>
+                <div class="store-locator-content">
+                    <div id="store-locator-map"></div>
+                </div>
+                <div class="store-locator-bottom"></div>
+            </div>
+
+            <div class="go-back-link text-center">
+                <a href="#"><img src="/images/down_arrow.svg" alt="↑" /></a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="http://pierrehermenicolasbuffe.com/js/vendors.js"></script>
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHhaiBbk7T8blMiHEQ7NcL22xpqFdZUGQ"></script>
+    <script src="http://pierrehermenicolasbuffe.com/js/app.min.js"></script>
+    <script type="text/javascript">
+        pierreHerme._init();
+    </script>
+</body>
+
+</html>
