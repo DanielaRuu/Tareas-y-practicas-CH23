@@ -33,7 +33,7 @@ console.log("todo el indice" + miArray1[2]);
 
 
 /********CICLO FOR********/
-// Es un ciclo o iterador que repite una sentencia tantas veces como se le especifique. Se usa cuando yo sé en dónde va a iniciar(i=0) y donde va a terminar(i<10)
+// Sirve para recorrer una matriz. Es un ciclo o iterador que repite una sentencia tantas veces como se le especifique. Se usa cuando yo sé en dónde va a iniciar(i=0) y donde va a terminar(i<10)
 // NOTA: ++ ó --  es un operador de incremento o decremento, significa posincremento/preincremento, va sumandole 1 al valor anterior, y repite la acción hasta llegar al tope de la prueba logica.
 for (let i = 0; i < 10; i++) {
     console.log("imprimiendo i ->" + i)
