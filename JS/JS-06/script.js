@@ -66,7 +66,7 @@ imagenPerrito.style.borderRadius = "100px";
 
 
 
-//Para poner elementos o nodos en el html se usa append
+//Para poner/insertar los elementos o nodos en el html se usa append
 document.body.append(imagenPerrito);
 
 //Para actualizar nodos se puede de 2 formas, una es:
@@ -85,8 +85,8 @@ resultadoQuecambia.innerHTML = "Saludos, cambie el texto juas juas";
 
 // Construir nuestra calculadora
 
-var input = document.getElementById("input1");
-var input = document.getElementById("input2");
+var input1 = document.getElementById("input1");
+var input2 = document.getElementById("input2");
 
 var botonSuma = document.getElementById("botonSuma");
 var botonResta = document.getElementById("botonResta");
@@ -94,3 +94,87 @@ var botonMultiplicacion = document.getElementById("botonMultiplicacion");
 var botonDivision = document.getElementById("botonDivision");
 
 var resultado = document.getElementById("resultado")
+
+//Construimos las funciones de nuestra calculadora
+function suma() {
+    let valor1 = parseInt(input1.value); //pido numero 1
+    let valor2 = parseInt(input2.value); //pido num 2. NOTA: es importantes poner el value porque es la propiedad que se estrae del elemento input2
+    let suma = valor1 + valor2; //calculo la suma
+    resultado.innerHTML = suma; //pongo el resultado en su lugar
+}
+
+function resta() {
+    let valor1 = parseInt(input1.value);
+    let valor2 = parseInt(input2.value);
+    let resta = valor1 - valor2;
+    resultado.innerHTML = resta;
+
+}
+
+function multiplicacion() {
+    let valor1 = parseInt(input1.value);
+    let valor2 = parseInt(input2.value);
+    let multiplicacion = valor1 * valor2;
+    resultado.innerHTML = multiplicacion;
+
+}
+
+function division() {
+    let valor1 = parseInt(input1.value);
+    let valor2 = parseInt(input2.value);
+    let division = valor1 / valor2;
+    resultado.innerHTML = division;
+
+}
+
+/*Cómo se crea un evento (addEventListener)
+Sintaxis:
+-node.addEvenListener ("evento a escuchar", lo que quiero que haga cuando se escuche)
+
+   -node(nodo donde aterrizo el evento)
+   -addEventListener(palabra reservada para usar el evento)
+   -evento a escuchar (click, mouseover, etc)
+   -Lo que quiero que haga (la llamada de la funcion)
+
+*/
+
+botonSuma.addEventListener("click", suma);
+botonResta.addEventListener("click", resta);
+botonMultiplicacion.addEventListener("click", multiplicacion);
+botonDivision.addEventListener("click", division);
+
+
+/**Manipulaciòn del DOM
+-Metodos para acceder a elementos
+  *document.getElementById
+  *document.getElementByTagName
+  *document.getElementByClassName
+
+-Metodos para crear elementos
+  *document.createElement(etiqueta)
+  *document.createTexNode (texto)
+
+-Metodos para insertaar elementos
+  *parentElement.append
+  *parentElement.insertBefore
+  *parentElement.inserAdjacentElement
+
+-Metodos para modificar elementos
+  *node.outerHTML (leer o referenciar el elemento)
+  *node.innerHTML (modificar el elemento)
+ */
+
+
+
+
+//   En malas practicas se incrusta un evento desde HTML (revolviendo entre html y JS):
+
+//   Esto iria en HTML:  <button onmouseover="cambiarColor(blue)" id="botonSuma" class="botones">Suma</button>
+//    esto aquí:
+//  //Primer paso: Definir con que voy a interactuar (almaceno en una variable)
+// const textoAModificar = document.querySelector("#h1")
+
+// //Creo una funcion que cambia de color, segun el color que le paso como parametro
+// function cambiarColor(color){
+//     textoAModificar.style.color = color;
+// }
