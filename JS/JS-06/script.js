@@ -1,3 +1,4 @@
+
 /*Que encontramos en el árbol de DOM?
 
 -Nodes: Es la unidad más básica dentro del documento. Puede ser una etiqueta, un texto dentro de una etiqueta o un comentario, etc.
@@ -16,7 +17,7 @@ Manipulacion DOM// Es un nodo, pero es hijo del title
 
 
 
-*Cómo leer nodos de mi Document Onject Model (DOM)
+*Cómo leer nodos de mi Document Object Model (DOM)
 
 Métodos tradicionales (que se usan en versiones antiguas de JS)
 
