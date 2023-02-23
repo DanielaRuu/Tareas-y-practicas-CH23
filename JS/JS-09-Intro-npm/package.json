@@ -1,14 +1,11 @@
 {
   "name": "js-09-intro-npm",
   "version": "1.0.0",
-  "description": "",
+  "description": "de nuez",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "parrotsay-api": "^0.1.1"
-  }
+  "author": "mua",
+  "license": "ISC"
 }
