@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\RepoCH23-D\Tareas-y-practicas-CH23\JAVA\Java-03\.metadata\.plugins\org.eclipse.jdt.core
+1530155246.index
+1865797976.index
+238958597.index
