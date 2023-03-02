@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class EstructuraMultiple {
 Scanner dato = new Scanner(System.in);
+
+//Practica para verificar si una letra es vocal
 	public void vocal() {
 	System.out.println("Introduzca una letra: ");
 	//aquí abajo se le indica donde recibir el dato que el usuario introduce
@@ -25,6 +27,7 @@ Scanner dato = new Scanner(System.in);
 	}
 	}
 	
+	//Practica para verificar notas aprobatorias o reprobatoria
 	public void notas() {
 		System.out.println("Introduzca la nota: ");
 		//aquí abajo se le indica donde recibir el dato que el usuario introduce
@@ -62,8 +65,8 @@ Scanner dato = new Scanner(System.in);
 		System.out.print("Introduzca un valor numerico:  ");
 		int entradaV = dato.nextInt();
 		System.out.println("Introduzca otro valor numerico");
-		int entradaW = dato.nextInt();
-		int menor =(entradaV <= entradaW) ? entradaV : entradaW;
+		int entradaF = dato.nextInt();
+		int menor =(entradaV <= entradaF) ? entradaV : entradaF;
 		System.out.println("------> " + menor);
 				
 	}
