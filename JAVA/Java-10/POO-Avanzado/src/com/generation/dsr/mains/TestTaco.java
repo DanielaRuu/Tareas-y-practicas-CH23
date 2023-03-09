@@ -31,10 +31,10 @@ public class TestTaco {
 		suadero.setGuisado("suadero");
 		System.out.println("Tienes un taquito de " + suadero.getGuisado());
 		
-		suadero.subirPrecio();
+		//suadero.subirPrecio();
 		
-		suadero.vender(5);
-		System.out.println("Son " + suadero.vender(5) + "pesos de 5 tacos de suadero");
+		//suadero.vender(5);
+		//System.out.println("Son " + suadero.vender(5) + "pesos de 5 tacos de suadero");
 	
 		
 
