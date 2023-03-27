@@ -14,23 +14,18 @@ public class UsuarioModel {
 	@Id  //campo clave, se le tiene que indicar que es autoincremental
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(unique = true, nullable = false)
-	private long id;
+	private Long id;
 	private String nombre;
 	private String email;
 	private Integer prioridad;
 	
 	
-	
-	public UsuarioModel(String nombre, String email, long id, Integer prioridad) {
-		super();
-		this.nombre = nombre;
-		this.email = email;
-		this.id = id;
-		this.prioridad = prioridad;
+	public Long getId() {
+		return id;
 	}
-	
-	
-	
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public String getNombre() {
 		return nombre;
 	}
@@ -43,18 +38,15 @@ public class UsuarioModel {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public long getId() {
-		return id;
-	}
-	public void setId(long id) {
-		this.id = id;
-	}
-	public int getPrioridad() {
+	public Integer getPrioridad() {
 		return prioridad;
 	}
-	public void setPrioridad(int prioridad) {
+	public void setPrioridad(Integer prioridad) {
 		this.prioridad = prioridad;
 	}
+	
+	
+	
 	
 
 
