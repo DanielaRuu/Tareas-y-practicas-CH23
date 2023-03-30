@@ -1,10 +1,13 @@
 package com.generation.ch23.jpa.models;
 
+import java.util.ArrayList;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity //esta anotacion le dice al framework que esta clase se va a convertir en una entidad
@@ -20,6 +23,26 @@ public class UsuarioModel {
 	private Integer prioridad;
 	
 	
+	@OneToMany (mappedBy = "usuario")//anotacion que declara la relacion (un usuario relacionandose con muchos productos)
+	private ArrayList<ProductoModel> producto;
+	
+	@OneToMany (mappedBy = "usuario")//anotacion que declara la relacion (un usuario relacionandose con muchas ordenes)
+	private ArrayList<OrdenModel> ordenes;
+	
+	public UsuarioModel() {
+	}
+	
+	
+	public UsuarioModel(Long id, String nombre, String email, Integer prioridad, ArrayList<ProductoModel> producto) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.email = email;
+		this.prioridad = prioridad;
+		this.producto = producto;
+	}
+
+
 	public Long getId() {
 		return id;
 	}
@@ -44,12 +67,15 @@ public class UsuarioModel {
 	public void setPrioridad(Integer prioridad) {
 		this.prioridad = prioridad;
 	}
-	
-	
-	
-	
 
+	public ArrayList<ProductoModel> getProducto() {
+		return producto;
+	}
 
+	public void setProducto(ArrayList<ProductoModel> producto) {
+		this.producto = producto;
+	}
+	
 	
 	
 }
